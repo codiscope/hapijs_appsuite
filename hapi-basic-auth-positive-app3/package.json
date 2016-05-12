@@ -1,0 +1,25 @@
+{
+  "name": "hapi-authentication-1",
+  "version": "1.0.0",
+  "description": "Introduction\r Hapi Js is a awesome framework, but there are not many tutorials out there.\r This tutorial will walk throught adding BasicAuth to your login page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul61177/hapi-authentication-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul61177/hapi-authentication-1/issues"
+  },
+  "homepage": "https://github.com/rahul61177/hapi-authentication-1#readme",
+  "dependencies": {
+    "blipp": "^2.3.0",
+    "crumb": "^6.0.0",
+    "hapi": "^13.4.0",
+    "hapi-auth-basic": "^4.1.0"
+  }
+}
