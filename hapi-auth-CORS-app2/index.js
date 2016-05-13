@@ -40,12 +40,7 @@ server.register([
   server.route({
     method: 'GET',
     path: '/public',
-    config: {
-      auth: false,
-      cors:  {
-        origin: ['*']
-      }
-    },
+    config: {auth: false, cors: {origin: ['*']}},
     handler: function (request, reply) {
       return reply(request.auth);
     }
