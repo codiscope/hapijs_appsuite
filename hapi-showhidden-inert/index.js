@@ -10,13 +10,13 @@ server.connection({
 
 server.register([
   {
-    register: require('inert')
+    //register: require('inert')
   }
 ], function (err) {
   if (err) {
     throw err;
   }
-  
+
 
   server.route([
     {
@@ -25,7 +25,7 @@ server.register([
       handler: {
         directory: {
           path: './',
-          showHidden: true
+          //showHidden: true
         }
       }
     }
