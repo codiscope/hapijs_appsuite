@@ -16,6 +16,7 @@ server.register([
   if (err) {
     throw err;
   }
+  
 
   server.route([
     {
