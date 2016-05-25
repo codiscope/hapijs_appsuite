@@ -1,0 +1,22 @@
+{
+  "name": "oldhapijs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul61177/oldhapijs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahul61177/oldhapijs/issues"
+  },
+  "homepage": "https://github.com/rahul61177/oldhapijs#readme",
+  "dependencies": {
+    "hapi": "^5.0.0"
+  }
+}
