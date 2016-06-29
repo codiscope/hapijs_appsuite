@@ -17,7 +17,6 @@ server.register([
     throw err;
   }
 
-
   server.route([
     {
       method: 'GET',
